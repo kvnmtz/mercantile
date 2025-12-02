@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mercantile:copper_coin",
+    "mercantile:silver_coin",
+    "mercantile:gold_coin"
+  ]
+}

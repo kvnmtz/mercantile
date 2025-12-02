@@ -1,0 +1,9 @@
+{
+  "gui.mercantile.retrieve_button.tooltip": "§7Retrieve §a%s\n§7Left-click: §ax1§7\nShift + Left-click: §ax64",
+  "item.mercantile.copper_coin": "Copper Coin",
+  "item.mercantile.gold_coin": "Gold Coin",
+  "item.mercantile.silver_coin": "Silver Coin",
+  "itemGroup.mercantile.coins_tab": "Coins",
+  "text.mercantile.coin_desc": "§7Value: §a%s\n§7Right-click with it to store it in your purse",
+  "text.mercantile.currency_format": "%s¢"
+}

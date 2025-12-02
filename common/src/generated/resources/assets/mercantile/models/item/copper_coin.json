@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "mercantile:item/copper_coin_0",
+      "predicate": {
+        "count": 0.0
+      }
+    },
+    {
+      "model": "mercantile:item/copper_coin_1",
+      "predicate": {
+        "count": 0.03125
+      }
+    },
+    {
+      "model": "mercantile:item/copper_coin_2",
+      "predicate": {
+        "count": 0.25
+      }
+    },
+    {
+      "model": "mercantile:item/copper_coin_3",
+      "predicate": {
+        "count": 0.5
+      }
+    },
+    {
+      "model": "mercantile:item/copper_coin_4",
+      "predicate": {
+        "count": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "mercantile:item/copper_coin_0"
+  }
+}

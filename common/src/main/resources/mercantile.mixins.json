@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "dev.kvnmtz.mercantile.common.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "plugin": "dev.kvnmtz.mercantile.common.mixin.plugin.MercantileMixinPlugin",
+  "client": [
+    "AbstractContainerScreenAccessor",
+    "GuiGraphicsInvoker",
+    "create.BlueprintOverlayRendererMixin"
+  ],
+  "mixins": [
+    "PlayerDataMixin",
+    "create.StockTickerInteractionHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

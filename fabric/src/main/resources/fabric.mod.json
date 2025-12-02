@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "$mod_id",
+  "version": "$version",
+  "name": "Mercantile",
+  "description": "Adds a simple currency system with optional Create 6+ integration.",
+  "authors": [
+    "3xpl01t"
+  ],
+  "contact": {
+    "sources": "https://github.com/kvnmtz/mercantile"
+  },
+  "license": "ARR",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.kvnmtz.mercantile.fabric.MercantileModFabric"
+    ],
+    "fabric-datagen": [
+      "dev.kvnmtz.mercantile.datagen.MercantileDatagenEntrypoint"
+    ]
+  },
+  "mixins": [
+    "mercantile.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "=$minecraft_version",
+    "java": ">=17",
+    "architectury": ">=$architectury_api_version",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "create": ">=$create_version_short"
+  },
+  "custom": {
+    "mc-publish": {
+      "dependencies": [
+        "architectury#(ignore)",
+        "architectury-api@>=$architectury_api_version(required)",
+        "create@>=$create_version_short(optional)#(ignore)",
+        "create-fabric@>=$create_version_short(optional)"
+      ]
+    }
+  }
+}
